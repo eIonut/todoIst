@@ -1,0 +1,172 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Inconsolata', monospace;
+}
+
+#navbar{
+    background-color: beige;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+}
+
+#home-content{
+    margin-left: 0px !important;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#register-content{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#register-btn, #login-btn{
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+#register-btn{
+    margin-left: 55%;
+    text-decoration: none;
+    text-transform: none;
+    background-color: rgb(240,128,128);
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1.1em;
+   
+}
+
+span:nth-of-type(1){
+    color: red;
+}
+
+#login-btn{
+    margin-right: 10%;
+    font-family:'Inconsolata', monospace;
+    background-color: rgb(119,221,119);
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#home-a{
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1.7em;
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+#motto-container{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    text-transform: none; 
+    color: white;
+}
+
+
+#nav-here{
+    text-decoration: underline;
+}
+#home-a{
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1.7em;
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid black;
+    margin-left: 20%;
+
+}
+
+#home-content {
+    margin-left: 10%;
+}
+
+#motto{
+    font-size: 1.2em;
+    margin: 0;
+}
+
+
+.main-form{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 30%;
+    height: fit-content;
+    background-color: beige;
+    border-radius: 15px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 80%;
+    height: 100%;
+    height: fit-content;
+}
+
+label{
+    position: absolute;
+    left: 40%;
+    color: black;
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.reg-inputs{
+    margin-bottom: 5px;
+    margin-left: 55%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.reg-inputs:focus{
+   
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.register-btn{
+    margin-top: 1.2em;
+    margin-left: 40%;
+    text-decoration: none;
+    text-transform: none;
+    background-color: rgb(240,128,128);
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: 1px solid black;
+    cursor:pointer;
+}

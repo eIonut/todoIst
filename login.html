@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Login!</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="home-content">
+            <a id="home-a"href="/Main-Page/index.html">Home</a>
+        </div>
+        <div id="motto-container">
+            <h1 id="motto">Your agenda is <span>safe</span> <span id="nav-here">here</span>.</h1>
+        </div>
+        <div id="register-content">
+            <button id="register-btn"><a href="/Register/register.html">Register</a></button>
+            <button id="login-btn"><a href="/Login/login.html">Log In</a></button>
+        </div>
+    </nav>
+
+    <main class="main-form">
+        <form action="">
+            <div>
+                <label for="user">Username:</label>
+                <input type="text" name="user" id="user" class="log-inputs" placeholder="Enter your username"  minlength="6" maxlength="12" required>
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" class="log-inputs"  minlength="8" required placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+            </div>
+
+            <button class="login-btn">Log in!</button>
+        </form>
+
+    </main>
+</body>
+</html>
